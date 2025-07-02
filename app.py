@@ -27,7 +27,7 @@ app.secret_key = "aoMYBvT/wnhVB3LsMk1vMZelFTFGmXgfYzEjw671a5aBc8x+n55XRxXAGGNytv
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 
 # Configure PostgreSQL database
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://neondb_owner:npg_8oZjPiXvH7za@ep-bitter-haze-a5sacvqf-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
+app.config["SQLALCHEMY_DATABASE_URI"] = "xxxxxxxxx"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {
     'pool_pre_ping': True,
